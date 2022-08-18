@@ -1,3 +1,7 @@
+root{
+  --box-shadow:box-shadow: 0 0.4rem 0.8rem -0.1rem rgb(0 32 128 / 10%), 0 0 0 1px #f0f2f7;
+}
+
 .App {
   text-align: center;
 }
