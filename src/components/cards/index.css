@@ -16,7 +16,8 @@
     color: #fff;
     width: 125px;
     height: 40px;
-    background: linear-gradient(130deg,#f53d02,#ff7d55);
+    /* background: linear-gradient(130deg,#FDC5B8,#FDC5B8); */
+    background: linear-gradient(130deg,#45CCDF,#45CCDF);
 }
 .quote{
     /* font-family: "September Spirit"; */

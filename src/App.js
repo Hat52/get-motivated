@@ -2,9 +2,18 @@ import Card from './components/cards'
 import './App.css'
 function App() {
   return (
-    <div style={{display:"flex",justifyContent: 'center',alignItems: 'center',height:"100vh"}} className="App">
-      <div style={{display:"flex",justifyContent: 'center',width:"60%"}}>
-        <Card/>
+    <div style={{display:"flex",flexDirection:"column",justifyContent: 'center',alignItems: 'center'}} className="App">
+      <div className="header">
+        
+      </div>
+      <div style={{display:"flex",flexDirection: 'column',paddingTop:"5%",gap:"25px" ,width:"60%"}}>
+        {
+          Array(12).fill(6).map(()=>{
+            return(
+              <Card/>
+            )
+          })
+        }
       </div>
     </div>
   );
