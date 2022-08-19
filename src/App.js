@@ -1,4 +1,5 @@
 import Card from './components/cards'
+import {quotes as Quotes} from './data/quotes'
 import './App.css'
 function App() {
   return (
@@ -6,11 +7,11 @@ function App() {
       <div className="header">
         
       </div>
-      <div style={{display:"flex",flexDirection: 'column',paddingTop:"5%",gap:"25px" ,width:"60%"}}>
+      <div style={{display:"flex",flexDirection: 'column',marginBottom:"5%",paddingTop:"5%",gap:"25px" ,width:"60%"}}>
         {
-          Array(12).fill(6).map(()=>{
+          Quotes.map((card,index)=>{
             return(
-              <Card/>
+              <Card index={index} data={card}/>
             )
           })
         }
