@@ -19,10 +19,10 @@
     background: linear-gradient(130deg,#f53d02,#ff7d55);
 }
 .quote{
-    font-family: "September Spirit";
-    font-weight: 700;
+    /* font-family: "September Spirit"; */
+    font-weight: 400;
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 .author-name {
     position: absolute;
