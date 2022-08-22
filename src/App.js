@@ -7,7 +7,7 @@ import Footer from './components/footer'
 function App() {
   const [author,setAuthor] = useState("")
   return (
-    <div style={{display:"flex",flexDirection:"column",justifyContent: 'center',alignItems: 'center'}} className="App">
+    <div className="App">
       <Header/>
       <Container author={author} setAuthor={setAuthor} Quotes={Quotes}/>
       <Footer/>
