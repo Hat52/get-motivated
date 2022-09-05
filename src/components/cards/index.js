@@ -21,6 +21,7 @@ export default function Card ({index,author,quote}) {
                     <div className="Icon-text"><span>Share</span> <BsShare fontSize="1.5em" color="#45CCDF" className="comment-icon" size="20"/></div>
                 </div>                
             </section>
+            
         </div>
     )
 }
