@@ -19,7 +19,7 @@ export default function Card ({index,author,quote}) {
                     <div className="Icon-text" onClick={()=>{console.log("Like clicked")}}><span>Like</span> <AiOutlineLike fontSize="1.5em" color="#45CCDF" className="comment-icon" size="20"/></div>
                     <div className="Icon-text" onClick={()=>{console.log("Dislike clicked")}}><span>Dislike</span> <AiOutlineDislike fontSize="1.5em" color="#45CCDF" className="comment-icon" size="20"/></div>
                     <div className="Icon-text" onClick={()=>{console.log("Share clicked")}}><span>Share</span> <BsShare fontSize="1.5em" color="#45CCDF" className="comment-icon" size="20"/></div>
-                </div>                
+                </div>                   
             </section>
             
         </div>
