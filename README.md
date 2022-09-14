@@ -4,6 +4,7 @@
 
 When you hit your low point motivation is what you need. This app is designed to do that.
 
+you can find this app on https://hat52.github.io/get-motivated/
 ## How to start
 
 ## Contributing
