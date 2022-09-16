@@ -7,7 +7,7 @@ export default function Card ({index,author,quote}) {
             <p className="quote">
                 {quote}
             </p>
-            <div className="author-name">
+            <div className="author-name ">
                 {author}
             </div>
             
